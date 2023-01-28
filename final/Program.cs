@@ -36,7 +36,7 @@ string[] NewArray(int count, string[] array)
     return arr;
 }
 
-Console.Write("Введите количество элементов в массиве ");
+Console.Write("Введите количество элементов в массиве: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 string[] array = CreateArray(n);
